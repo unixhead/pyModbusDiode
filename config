@@ -1,0 +1,38 @@
+#Config file
+# Modbus data source / server
+ModbusServer=127.0.0.1
+ModbusPort=10502
+# Where to transmit the data - may need static ARP entry if behind a hardware diode
+SouthServer=127.0.0.1
+SouthPort=15000
+
+#Only send changed values
+TransmitUnchangedValues=1
+
+
+#Rest CSV format
+#Points Format is: address, <polling interval (ms)>, <type>
+#Default frequency is 1 second (1000ms)
+#Default type depends on address, values can be "r" for a register or "c" for a coil
+
+
+#scan coil at address 40 with default frequency and type
+40
+
+#scan register at 30001 twice a second
+30001,500
+
+#scan register at 30002 at 10hz
+30002,100
+
+
+#scan register at 30005 once a minute
+30005,60000
+
+
+#scan register at 30010 once a minute treated as a coil
+30010,60000
+
+#scan holding registers
+40001
+40002
