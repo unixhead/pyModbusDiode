@@ -17,7 +17,7 @@ from pyModbusTCP.client import ModbusClient
 from socket import *
 import time
 
-def_loopTime = 20 #how long the main loop should be in milliseconds, max recommended polling frequency is 40hz = every 40ms, therefore loop every 20ms
+def_loopTime = 20 #how long the main loop should be in milliseconds, max recommended polling frequency is 40hz = every 25ms, therefore loop every 20ms
 
 class ModbusDiodeNorthConfig:
     
