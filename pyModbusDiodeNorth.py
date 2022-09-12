@@ -2,6 +2,12 @@
 # THIS IS A POC ONLY AND SHOULD NOT BE USED IN PRODUCTION
 #
 
+#
+# For paid support/development activities, please visit https://otnss.co.uk
+#
+# For open source support, please visit https://github.com/unixhead/pyModbusDiode
+#
+
 # pyModbusDiodeNorth
 # Reads Modbus/TCP and transmits via UDP for sending over uni-directional links
 #
